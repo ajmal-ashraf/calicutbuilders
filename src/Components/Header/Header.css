@@ -1,0 +1,34 @@
+.navbar-brand img{
+    height: 100px;
+    width: 140px;
+}
+.navbar-toggler{
+   outline: none !important;
+   border: none !important;
+}
+#navbar-nav{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-nav{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 1440px) {
+    .nav-item .nav-link{
+        font-size: 16px;
+    }
+    .navbar-brand img {
+        height: 80px;
+        width: 100px;
+    }
+}
+@media (max-width: 1440px) {
+    .navbar-brand img {
+        height: 60px;
+        width: 60px;
+    }
+}
