@@ -1,6 +1,6 @@
 .navbar-brand img{
-    height: 100px;
-    width: 140px;
+    height: 80px;
+    width: 110px;
 }
 .navbar-toggler{
    outline: none !important;
@@ -13,7 +13,7 @@
     z-index: 10;
 }
 .navbar-nav{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
 }
 

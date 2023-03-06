@@ -7,7 +7,7 @@
     align-items: center;
 }
 .hero-text h1{
-    font-size: 70px;
+    font-size: 52px;
     color: #6D6D6D;
 }
 .hero-text span{
@@ -16,7 +16,7 @@
 }
 .hero-image img{
    width: 100%;
-   height: 700px;
+   height: 440px;
    border-radius: 25px;
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
    transition: all 0.3s ease-in-out;
@@ -28,11 +28,12 @@
 }
 .hero-text p{
     color: #908E8E;
+    font-size: 14px;
 }
 .hero-text .cta-btn{
     padding: 8px 16px;
     background-color: #FDD348;
-    font-size: 16px;
+    font-size: 14px;
     border: none;
     border-radius: 15px;
     margin-bottom: 15px;
@@ -59,99 +60,50 @@
     margin-right: 10px;
 }
 .projects h5{
-    font-size: 16px;
+    font-size: 14px;
 }
 .projects h5 span{
     color: black;
 }
 
-@media (max-width: 1440px) {
-    .hero-text h1{
-        font-size: 60px;
-    }
-    .hero-image img{
-        height: 500px;
-    }
-    .hero-text p{
-        font-size: 18px;
-    }
-    .hero-text .cta-btn{
-        font-size: 14px
-    }
-    .projects img{
-        height: 18px;
-        width: 18px;
-    }
-    .projects h5{
-        font-size: 16px;
-    }
-}
+
+/* ================================MEDIA QUERIES============================= */
+
+/* For large device */
+
 @media (max-width: 992px) {
     .hero-text h1{
-        font-size: 50px;
-    }
-    .hero-image img{
-        height: 600px;
-    }
-    .hero-text p{
-        font-size: 16px;
+        font-size: 45px;
     }
     .hero-text .cta-btn{
-        font-size: 14px
+        font-size: 12px
     }
     .projects img{
         height: 18px;
         width: 18px;
     }
-    .projects h5{
-        font-size: 16px;
-    }
 }
+
+/* for Medium Devices */
 
 @media (max-width: 768px) {
     .hero-container{
         grid-template-columns: 1fr;
         align-content: center;
     }
-    .hero-text{
-        margin-bottom: 15px;
-    }
     .hero-text h1{
-        font-size: 60px;
-    }
-    .hero-image img{
-        height: 400px;
-    }
-    .hero-text p{
-        font-size: 14px;
-    }
-    .hero-text .cta-btn{
-        font-size: 14px
-    }
-    .projects img{
-        height: 18px;
-        width: 18px;
-    }
-    .projects h5{
-        font-size: 16px;
+        font-size: 55px;
     }
 }
+
+/* For small devices */
+
 @media (max-width: 555px) {
-    .hero-text h1{
-        font-size: 44px;
-    }
     .hero-image img{
         height: 300px;
     }
-    .hero-text p{
-        font-size: 14px;
-    }
     .hero-text .cta-btn{
         font-size: 14px
-    }
-    .projects img{
-        height: 18px;
-        width: 18px;
     }
     .projects h5{
         font-size: 16px;
@@ -160,7 +112,7 @@
 
 @media (max-width: 425px) {
     .hero-text h1{
-        font-size: 40px;
+        font-size: 48px;
     }
     .hero-text p{
         font-size: 12px;
@@ -173,9 +125,9 @@
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 391px) {
     .hero-text h1{
-        font-size: 30px;
+        font-size: 44px;
     }
     .hero-text p{
         font-size: 10px;
@@ -188,5 +140,13 @@
     }
     .hero-image img{
         height: 220px;
+    }
+}
+
+/* For extra small devices */
+
+@media (max-width: 281px) {
+    .hero-text h1{
+        font-size: 33px;
     }
 }
