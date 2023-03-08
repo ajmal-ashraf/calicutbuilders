@@ -1,0 +1,95 @@
+#team{
+    background-color: #fff;
+    height: fit-content;
+}
+.team-head{
+    text-align: center;
+}
+.team-head h1{
+    color: black;
+    font-weight: 600;
+    font-size: 35px;
+    padding-top: 15px;
+}
+.team-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+}
+.team-section-image img{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.team-section-text-1 h5{
+    font-size: 16px;
+    color: rgb(78, 76, 76);
+}
+.team-section-text-1 h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(110, 88, 11);
+}
+.team-section-text-1 p{
+    font-size: 14px;
+    color: rgb(97, 97, 97);
+}
+.team-section-text-2 h5{
+    font-size: 16px;
+    color: rgb(78, 76, 76);
+}
+.team-section-text-2 h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(110, 88, 11);
+}
+.team-section-text-2 p{
+    font-size: 14px;
+    color: rgb(97, 97, 97);
+}
+
+@media (max-width: 768px) {
+    .team-section-text-1 h5{
+        font-size: 12px;
+    }
+    .team-section-text-2 h5{
+        font-size: 12px;
+    }
+    .team-section-text-1 h3{
+        font-size: 16px;
+    }
+    .team-section-text-2 h3{
+        font-size: 16px;
+    }
+    .team-section-text-1 p{
+        font-size: 12px;
+    }
+    .team-section-text-2 p{
+        font-size: 12px;
+    }
+    .team-section-image img{
+        height: 200px;
+    }
+}
+
+@media (max-width: 550px){
+    .section{
+        grid-template-columns: 1fr;
+    }
+    .team-section-text-1{
+        border-bottom: 1px solid black;
+    }
+    .section .icon{
+        height: 16px;
+        width: 16px;
+    }    
+}

@@ -52,11 +52,11 @@
 .projects{
     display: flex;
 }
-.projects img{
+.projects .projects-icon{
     height: 24px;
     width: 24px;
 }
-.projects img{
+.projects .projects-icon{
     margin-right: 10px;
 }
 .projects h5{
@@ -78,7 +78,7 @@
     .hero-text .cta-btn{
         font-size: 12px
     }
-    .projects img{
+    .projects  .projects-icon{
         height: 18px;
         width: 18px;
     }
@@ -131,9 +131,6 @@
     }
     .hero-text p{
         font-size: 10px;
-    }
-    .hero-text .cta-btn{
-        font-size: 10px
     }
     .projects h5{
         font-size: 10px;
