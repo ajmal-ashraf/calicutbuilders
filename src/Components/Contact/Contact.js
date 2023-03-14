@@ -1,7 +1,9 @@
-import React, { useRef } from 'react';
+import React, {  useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css'
 import { Icon } from '@iconify/react';
+import swal from 'sweetalert';
+
 
 const Contact = () => {
   const form = useRef();
@@ -18,6 +20,10 @@ const Contact = () => {
           console.log(error.text);
       });
   };
+  
+  const Alert = () => {
+    swal("Done!", "Your message sent successfully", "success");
+  }
   return (
     <>
       <section id='contact'>
@@ -54,7 +60,7 @@ const Contact = () => {
                  <input type="email" name="user_email" className='form-input' required placeholder='your e-mail'/>
                  <label>message</label>
                  <textarea name="message" className='form-input' required placeholder='Message' rows="8"/>
-                 <input type="submit" value="Submit" className='btn-submit'/>
+                 <input type="submit" value="Submit" className='btn-submit' onClick={Alert}/>
            </form>
            </div>
         </div>
