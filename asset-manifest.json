@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/calicutbuilders/static/css/main.84d704e2.css",
-    "main.js": "/calicutbuilders/static/js/main.eb70a20f.js",
+    "main.css": "/calicutbuilders/static/css/main.ded3bfd8.css",
+    "main.js": "/calicutbuilders/static/js/main.b3693097.js",
     "static/media/aboutimage.jpg": "/calicutbuilders/static/media/aboutimage.21ce608f512483ded331.jpg",
+    "static/media/Mujeeb-cropped.jpg": "/calicutbuilders/static/media/Mujeeb-cropped.bb4240196a8b6f3e92ee.jpg",
+    "static/media/Koya.jpg": "/calicutbuilders/static/media/Koya.94ce1989543af220a96e.jpg",
     "static/media/Calicut.jpg": "/calicutbuilders/static/media/Calicut.93965a9e77bfe2763e22.jpg",
     "index.html": "/calicutbuilders/index.html",
-    "main.84d704e2.css.map": "/calicutbuilders/static/css/main.84d704e2.css.map",
-    "main.eb70a20f.js.map": "/calicutbuilders/static/js/main.eb70a20f.js.map"
+    "main.ded3bfd8.css.map": "/calicutbuilders/static/css/main.ded3bfd8.css.map",
+    "main.b3693097.js.map": "/calicutbuilders/static/js/main.b3693097.js.map"
   },
   "entrypoints": [
-    "static/css/main.84d704e2.css",
-    "static/js/main.eb70a20f.js"
+    "static/css/main.ded3bfd8.css",
+    "static/js/main.b3693097.js"
   ]
 }
