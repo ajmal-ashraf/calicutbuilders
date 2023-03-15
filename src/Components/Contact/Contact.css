@@ -115,3 +115,10 @@
         padding: 4px 0px;
     }
 }
+
+@media (max-width: 450px) {
+    .btn-submit{
+        width: 25%;
+        padding: 4px 0px;
+    }
+}

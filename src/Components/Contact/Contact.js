@@ -27,7 +27,7 @@ const Contact = () => {
   return (
     <>
       <section id='contact'>
-        <div className='container contact-container'>
+        <div className='container'>
            <div className='contact-head' data-aos="fade-up">
                <h1>Contact Us.</h1>
            </div>
@@ -45,7 +45,7 @@ const Contact = () => {
                   <h6>cltbuildersanddevelopers@gmail.com</h6>
                 </div>
                 <div className='social-media'>
-                    <a href='https://www.instagram.com/'>
+                    <a href='https://www.instagram.com/cali_cutbuilders/'>
                     <Icon icon="mdi:instagram" color="white" height='30' className='socialmedia-icons'/>
                     </a>
                     <a href='https://www.facebook.com/'>

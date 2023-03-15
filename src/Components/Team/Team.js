@@ -1,6 +1,8 @@
 import React from 'react'
 import './Team.css'
 import { Icon } from '@iconify/react';
+import mujeeebImg from '../Images/Mujeeb-cropped.jpg'
+import koyaImg from '../Images/Koya.jpg'
 
 
 const Team = () => {
@@ -14,7 +16,7 @@ const Team = () => {
             <div className='team-section'>
             <div className='section' data-aos="fade-up">
               <div className='team-section-image'>
-                <img src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' alt='founder'/>
+                <img src={mujeeebImg} alt='founder'/>
               </div>
               <div className='team-section-text-1'>
                 <h5><Icon icon="ri:double-quotes-l" color="#896c00"  height="28" className='icon'/>We are happy to announce that from the review of our customers , we are the one of the best builders in Calicut in terms of quality of work and the budget friendliness. We make sure everything work as planned at the given time.<Icon icon="ri:double-quotes-r" color="#896c00" height="26" className='icon'/></h5>
@@ -29,7 +31,7 @@ const Team = () => {
                 <p>Co-founder, Managing Partner.</p>
               </div>
               <div className='team-section-image'>
-                <img src='https://images.unsplash.com/photo-1495603889488-42d1d66e5523?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60' alt='co-founder'/>
+                <img src={koyaImg} alt='co-founder'/>
               </div>
             </div>
             </div>
